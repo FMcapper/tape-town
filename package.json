@@ -1,10 +1,31 @@
 {
+  "name": "tape-town",
+  "version": "0.1.0",
+  "description": "a little app for managing tape",
+  "main": "index.js",
+  "proxy": "http://localhost:8080",
+  "scripts": {
+    "test": "echo \"Error: no tests yet\" && exit 1",
+    "start": "nodemon server/server.js",
+    "build": "webpack",
+    "serve": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "Mickey Capper",
   "dependencies": {
+    "express": "^4.19.2",
     "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "webpack": "^5.92.1"
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   }
 }

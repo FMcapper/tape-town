@@ -1,0 +1,4 @@
+node_modules
+dev/test_audio
+package-lock.json
+dist
