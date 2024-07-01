@@ -1,10 +1,13 @@
-import React from "react";
+import React from 'react';
 
-const TapeCassette = ({source}) => { 
-  return(
-    <audio controls src = {source}></audio>
-  )
-  
-}
+const TapeCassette = ({ source, tapeName }) => {
+  return (
+    <>
+      <h3>{tapeName}</h3>
 
-export default TapeCassette
+      <audio controls src={source}></audio>
+    </>
+  );
+};
+
+export default TapeCassette;
