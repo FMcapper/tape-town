@@ -1,11 +1,10 @@
 import React from 'react';
-//import TapeSink from './containers/TapeSink.jsx'
+import TapeSink from './Containers/TapeSink.jsx'
 
 const App = () => {
   return(
     <div>
-      <p>Hello! Hiyooooo!</p>
-      <h2>testing</h2>
+      <TapeSink />
     </div>
   )
 }
